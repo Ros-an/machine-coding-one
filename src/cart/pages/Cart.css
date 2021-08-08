@@ -1,0 +1,128 @@
+.cart-page {
+  width: 100%;
+  margin: 1rem;
+}
+.cart {
+  display: flex;
+}
+.cart-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0.625;
+}
+.cart-section .cart-item,
+.cart-section .saved-item {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+.cart-section .heading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.calculation-section {
+  margin: 0 0.5rem;
+  height: fit-content;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+  flex: 0.325;
+}
+.cart-card {
+  display: flex;
+  min-height: 150px;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+}
+.cart-card img {
+  width: 150px;
+  height: 150px;
+  flex: 0.2;
+}
+.cart-card .details {
+  flex: 0.7;
+}
+.cart-card .price {
+  display: flex;
+  align-items: center;
+}
+.cart-card .price small {
+  margin: 0 0.5rem;
+}
+.cart-card .price .original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+.cart-card .price .discount {
+  color: red;
+}
+.cart-card .details p {
+  margin: 0.25rem;
+  padding: 0;
+}
+
+.cart-card .quantity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.5rem 1rem;
+}
+.cart-card .quantity p {
+  min-height: 1.5rem;
+  min-width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2px 1px rgba(65, 20, 20, 0.3);
+}
+.cart-card .quantity button {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.cart-card .quantity button:active {
+  box-shadow: 0 0 2px 1px rgba(65, 20, 20, 0.3);
+}
+.cart-card .details .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-card .details .control-btn button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+.cart-card .details .control-btn button:hover {
+  color: blue;
+}
+
+.cart-page .calculation-section .order {
+  padding: 0.5rem 1rem;
+}
+.cart-page .calculation-section .order h2 {
+  margin: 0.25rem 0;
+}
+.cart-page .calculation-section .order p,
+.cart-page .calculation-section .order h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-page .calculation-section .order .discount span:nth-child(2) {
+  color: red;
+}
+.cart-page .calculation-section .order .total {
+  font-weight: 500;
+}

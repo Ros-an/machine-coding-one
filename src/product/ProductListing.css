@@ -1,0 +1,54 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+article {
+  width: 220px;
+  margin: 0.5rem;
+}
+article:hover {
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s linear;
+}
+
+article img {
+  width: 100%;
+  height: 20rem;
+}
+
+article .price {
+  display: flex;
+  align-items: center;
+}
+article .price small {
+  margin: 0 0.5rem;
+}
+article .price .original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+article .price .discount {
+  color: red;
+}
+article .details p {
+  margin: 0.25rem;
+  padding: 0;
+}
+article button {
+  width: 100%;
+  color: white;
+  height: 2.5rem;
+  background: #ff9f00;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+article button:hover {
+  filter: brightness(120%);
+}
+article button:active {
+  color: black;
+}

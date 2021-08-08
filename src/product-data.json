@@ -1,0 +1,54 @@
+ {
+  "name": "Products",
+  "data": [
+      {
+          "id": "1",
+          "title": "Full Sleeve Solid Men Denim Blue Jacket",
+          "brand": "MONTREZ",
+          "discount": 74,
+          "price": 2499,
+          "imgurl": "https://rukminim1.flixcart.com/image/472/566/km2clu80/jacket/l/v/6/xl-mnt-7004-montrez-original-imagffv4bk5bkfpy.jpeg?q=50"
+      },
+      {
+        "id": "2",
+        "title": "Full Sleeve Solid Men Denim DarkBlue Jacket",
+        "brand": "MONTREZ",
+        "discount": 75,
+        "price": 2499,
+        "imgurl": "https://rukminim1.flixcart.com/image/472/566/km2clu80/jacket/c/f/0/s-mnt-7003-montrez-original-imagffv4hs3k6quc.jpeg?q=50"
+    },
+    {
+        "id": "3",
+        "title": "Full Sleeve Solid Men Denim Mix Color Jacket",
+        "brand": "MONTREZ",
+        "discount": 74,
+        "price": 2499,
+        "imgurl": "https://rukminim1.flixcart.com/image/472/566/km2clu80/jacket/y/3/t/l-mnt-7002-montrez-original-imagffusvkygwxct.jpeg?q=50"
+    },
+    {
+        "id": "4",
+        "title": "Full Sleeve Solid Men Denim Black Jacket",
+        "brand": "MONTREZ",
+        "discount": 65,
+        "price": 2499,
+        "imgurl": "https://rukminim1.flixcart.com/image/472/566/kg2l47k0/jacket/x/p/4/m-maw20jkt108c-metronaut-original-imafwe4zunz9eyhb.jpeg?q=50"
+    },
+    {
+        "id": "5",
+        "title": "Full Sleeve Printed Men Casual Jacket",
+        "brand": "BLIVE",
+        "discount": 86,
+        "price": 2499,
+        "imgurl": "https://rukminim1.flixcart.com/image/472/566/kihqz680-0/jacket/i/m/c/m-bogrhdjacket-kt2-blive-original-imafy9htftjfgayw.jpeg?q=50"
+    },
+    {
+        "id": "6",
+        "title": "Full Sleeve Stripped Men Casual Jacket",
+        "price": 2499,
+        "discount": 86,
+        "brand": "BLIVE",
+        "imgurl": "https://rukminim1.flixcart.com/image/472/566/khf63680/jacket/g/9/f/3xl-bmrgyhdjacket-k9-blive-original-imafxf6r2jhgaweg.jpeg?q=50"
+    }
+
+  ]
+}
